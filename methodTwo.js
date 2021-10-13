@@ -8,7 +8,7 @@ class Person {
         this.parents = parents;
     }
     childOf() {
-        return this.parents.join(" and ");
+        return `${this.name}'s parents are ${this.parents.join(" and ")}`;
     }
 }
 
