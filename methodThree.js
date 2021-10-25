@@ -72,6 +72,8 @@ royalFamily.generations[2].members.push(GeorgeWindsor, CharlotteWindsor, LouisWi
 
 console.log(royalFamily);
 console.log(JSON.stringify(royalFamily));
-console.log(ArchiHarrisonWindsod.childOf())
+console.log(ArchiHarrisonWindsor.childOf());
 console.log(WilliamWindsor);
 
+module.exports = royalFamily;
+module.exports = WilliamWindsor;
